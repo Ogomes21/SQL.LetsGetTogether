@@ -1,2 +1,1 @@
-mysql> SELECT * FROM Enrollments INNER JOIN Students ON Enrollments.StudentID =
-Students.StudentID;
+SELECT * FROM Enrollments LEFT JOIN Students ON Students.StudentID = ENROLLMENTS.StudentID;
