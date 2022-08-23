@@ -1,0 +1,1 @@
+mysql> SELECT * FROM Enrollments LEFT JOIN Students ON Students.StudentID = ENROLLMENTS.StudentID;
